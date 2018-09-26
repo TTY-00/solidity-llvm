@@ -1,0 +1,265 @@
+{
+	"attributes" : 
+	{
+		"absolutePath" : "../cases/ir_test.sol",
+		"exportedSymbols" : 
+		{
+			"ERC721Basic" : 
+			[
+				16
+			]
+		}
+	},
+	"children" : 
+	[
+		{
+			"attributes" : 
+			{
+				"literals" : 
+				[
+					"solidity",
+					"^",
+					"0.4",
+					".24"
+				]
+			},
+			"id" : 1,
+			"name" : "PragmaDirective",
+			"src" : "0:24:0"
+		},
+		{
+			"attributes" : 
+			{
+				"baseContracts" : 
+				[
+					null
+				],
+				"contractDependencies" : 
+				[
+					null
+				],
+				"contractKind" : "contract",
+				"documentation" : null,
+				"fullyImplemented" : true,
+				"linearizedBaseContracts" : 
+				[
+					16
+				],
+				"name" : "ERC721Basic",
+				"scope" : 17
+			},
+			"children" : 
+			[
+				{
+					"attributes" : 
+					{
+						"constant" : true,
+						"documentation" : null,
+						"implemented" : true,
+						"isConstructor" : false,
+						"modifiers" : 
+						[
+							null
+						],
+						"name" : "balanceOf",
+						"payable" : false,
+						"scope" : 16,
+						"stateMutability" : "view",
+						"superFunction" : null,
+						"visibility" : "public"
+					},
+					"children" : 
+					[
+						{
+							"children" : 
+							[
+								{
+									"attributes" : 
+									{
+										"constant" : false,
+										"name" : "a",
+										"scope" : 15,
+										"stateVariable" : false,
+										"storageLocation" : "default",
+										"type" : "uint256",
+										"value" : null,
+										"visibility" : "internal"
+									},
+									"children" : 
+									[
+										{
+											"attributes" : 
+											{
+												"name" : "uint256",
+												"type" : "uint256"
+											},
+											"id" : 2,
+											"name" : "ElementaryTypeName",
+											"src" : "73:7:0"
+										}
+									],
+									"id" : 3,
+									"name" : "VariableDeclaration",
+									"src" : "73:9:0"
+								},
+								{
+									"attributes" : 
+									{
+										"constant" : false,
+										"name" : "b",
+										"scope" : 15,
+										"stateVariable" : false,
+										"storageLocation" : "default",
+										"type" : "uint256",
+										"value" : null,
+										"visibility" : "internal"
+									},
+									"children" : 
+									[
+										{
+											"attributes" : 
+											{
+												"name" : "uint256",
+												"type" : "uint256"
+											},
+											"id" : 4,
+											"name" : "ElementaryTypeName",
+											"src" : "84:7:0"
+										}
+									],
+									"id" : 5,
+									"name" : "VariableDeclaration",
+									"src" : "84:9:0"
+								}
+							],
+							"id" : 6,
+							"name" : "ParameterList",
+							"src" : "72:22:0"
+						},
+						{
+							"children" : 
+							[
+								{
+									"attributes" : 
+									{
+										"constant" : false,
+										"name" : "_balance",
+										"scope" : 15,
+										"stateVariable" : false,
+										"storageLocation" : "default",
+										"type" : "uint256",
+										"value" : null,
+										"visibility" : "internal"
+									},
+									"children" : 
+									[
+										{
+											"attributes" : 
+											{
+												"name" : "uint256",
+												"type" : "uint256"
+											},
+											"id" : 7,
+											"name" : "ElementaryTypeName",
+											"src" : "116:7:0"
+										}
+									],
+									"id" : 8,
+									"name" : "VariableDeclaration",
+									"src" : "116:16:0"
+								}
+							],
+							"id" : 9,
+							"name" : "ParameterList",
+							"src" : "115:18:0"
+						},
+						{
+							"children" : 
+							[
+								{
+									"attributes" : 
+									{
+										"functionReturnParameters" : 9
+									},
+									"children" : 
+									[
+										{
+											"attributes" : 
+											{
+												"argumentTypes" : null,
+												"commonType" : 
+												{
+													"typeIdentifier" : "t_uint256",
+													"typeString" : "uint256"
+												},
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"operator" : "+",
+												"type" : "uint256"
+											},
+											"children" : 
+											[
+												{
+													"attributes" : 
+													{
+														"argumentTypes" : null,
+														"overloadedDeclarations" : 
+														[
+															null
+														],
+														"referencedDeclaration" : 3,
+														"type" : "uint256",
+														"value" : "a"
+													},
+													"id" : 10,
+													"name" : "Identifier",
+													"src" : "150:1:0"
+												},
+												{
+													"attributes" : 
+													{
+														"argumentTypes" : null,
+														"overloadedDeclarations" : 
+														[
+															null
+														],
+														"referencedDeclaration" : 5,
+														"type" : "uint256",
+														"value" : "b"
+													},
+													"id" : 11,
+													"name" : "Identifier",
+													"src" : "154:1:0"
+												}
+											],
+											"id" : 12,
+											"name" : "BinaryOperation",
+											"src" : "150:5:0"
+										}
+									],
+									"id" : 13,
+									"name" : "Return",
+									"src" : "143:12:0"
+								}
+							],
+							"id" : 14,
+							"name" : "Block",
+							"src" : "133:29:0"
+						}
+					],
+					"id" : 15,
+					"name" : "FunctionDefinition",
+					"src" : "54:108:0"
+				}
+			],
+			"id" : 16,
+			"name" : "ContractDefinition",
+			"src" : "26:138:0"
+		}
+	],
+	"id" : 17,
+	"name" : "SourceUnit",
+	"src" : "0:165:0"
+}
