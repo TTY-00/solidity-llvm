@@ -1,36 +1,36 @@
-2018-09-25 19:51:48,590: INFO: Start up.
-2018-09-25 19:51:48,591: INFO: Load ast from /mnt/sdb/yintingting/solidity-llvm/solidity-llvm/./cases/ir_test.ast success.
-2018-09-25 19:51:48,591: INFO: [+]-- Node [SourceUnit, ../cases/ir_test.sol, 17] Start
-2018-09-25 19:51:48,591: DEBUG: [!] There is no parsers for PragmaDirective now.
-2018-09-25 19:51:48,591: INFO: [+]---- Node [ContractDefinition, ERC721Basic, 16] Start
-2018-09-25 19:51:48,591: INFO: [+]------ Node [FunctionDefinition, balanceOf, 15] Start
-2018-09-25 19:51:48,591: INFO: [+]-------- Node [ParameterList, ParameterList, 6] Start
-2018-09-25 19:51:48,591: INFO: [+]---------- Node [VariableDeclaration, a, 3] Start
-2018-09-25 19:51:48,591: INFO: [-]---------- Node [VariableDeclaration, a, 3] End
-2018-09-25 19:51:48,592: INFO: [+]---------- Node [VariableDeclaration, b, 5] Start
-2018-09-25 19:51:48,592: INFO: [-]---------- Node [VariableDeclaration, b, 5] End
-2018-09-25 19:51:48,592: INFO: [-]-------- Node [ParameterList, ParameterList, 6] End
-2018-09-25 19:51:48,592: INFO: [+]-------- Node [ParameterList, ParameterList, 9] Start
-2018-09-25 19:51:48,592: INFO: [+]---------- Node [VariableDeclaration, _balance, 8] Start
-2018-09-25 19:51:48,592: INFO: [-]---------- Node [VariableDeclaration, _balance, 8] End
-2018-09-25 19:51:48,592: INFO: [-]-------- Node [ParameterList, ParameterList, 9] End
-2018-09-25 19:51:48,592: INFO: [+]-------- Node [Block, Block, 14] Start
-2018-09-25 19:51:48,592: INFO: [+]---------- Node [Return, Return, 13] Start
-2018-09-25 19:51:48,593: INFO: [+]------------ Node [BinaryOperation, BinaryOperation, 12] Start
-2018-09-25 19:51:48,593: INFO: [+]-------------- Node [Identifier, a, 10] Start
-2018-09-25 19:51:48,593: INFO: [-]-------------- Node [Identifier, a, 10] End
-2018-09-25 19:51:48,593: INFO: [+]-------------- Node [Identifier, b, 11] Start
-2018-09-25 19:51:48,593: INFO: [-]-------------- Node [Identifier, b, 11] End
-2018-09-25 19:51:48,593: INFO: [-]------------ Node [BinaryOperation, BinaryOperation, 12] End
-2018-09-25 19:51:48,593: INFO: [-]---------- Node [Return, Return, 13] End
-2018-09-25 19:51:48,593: WARNING: [!] `ExpressionStatement` is not found here.
-2018-09-25 19:51:48,593: WARNING: [!] `IfStatement` is not found here.
-2018-09-25 19:51:48,593: INFO: [-]-------- Node [Block, Block, 14] End
-2018-09-25 19:51:48,594: INFO: [-]------ Node [FunctionDefinition, balanceOf, 15] End
-2018-09-25 19:51:48,594: WARNING: [!] `VariableDeclaration` is not found here.
-2018-09-25 19:51:48,594: WARNING: [!] `ModifierDefinition` is not found here.
-2018-09-25 19:51:48,594: WARNING: [!] `InheritanceSpecifier` is not found here.
-2018-09-25 19:51:48,594: WARNING: [!] `Block` is not found here.
-2018-09-25 19:51:48,594: INFO: [-]---- Node [ContractDefinition, ERC721Basic, 16] End
-2018-09-25 19:51:48,594: INFO: [-]-- Node [SourceUnit, ../cases/ir_test.sol, 17] End
-2018-09-25 19:51:48,594: INFO: Done.
+2019-10-30 14:49:14,608: INFO: Start up.
+2019-10-30 14:49:14,608: INFO: Load ast from /home/usert/work/sol-llvm-ws/solidity-llvm/./cases/ir_test.ast success.
+2019-10-30 14:49:14,608: INFO: [+]-- Node [SourceUnit, ../cases/ir_test.sol, 17] Start
+2019-10-30 14:49:14,608: DEBUG: [!] There is no parsers for PragmaDirective now.
+2019-10-30 14:49:14,608: INFO: [+]---- Node [ContractDefinition, ERC721Basic, 16] Start
+2019-10-30 14:49:14,608: INFO: [+]------ Node [FunctionDefinition, balanceOf, 15] Start
+2019-10-30 14:49:14,608: INFO: [+]-------- Node [ParameterList, ParameterList, 6] Start
+2019-10-30 14:49:14,608: INFO: [+]---------- Node [VariableDeclaration, a, 3] Start
+2019-10-30 14:49:14,609: INFO: [-]---------- Node [VariableDeclaration, a, 3] End
+2019-10-30 14:49:14,609: INFO: [+]---------- Node [VariableDeclaration, b, 5] Start
+2019-10-30 14:49:14,609: INFO: [-]---------- Node [VariableDeclaration, b, 5] End
+2019-10-30 14:49:14,609: INFO: [-]-------- Node [ParameterList, ParameterList, 6] End
+2019-10-30 14:49:14,609: INFO: [+]-------- Node [ParameterList, ParameterList, 9] Start
+2019-10-30 14:49:14,609: INFO: [+]---------- Node [VariableDeclaration, _balance, 8] Start
+2019-10-30 14:49:14,609: INFO: [-]---------- Node [VariableDeclaration, _balance, 8] End
+2019-10-30 14:49:14,609: INFO: [-]-------- Node [ParameterList, ParameterList, 9] End
+2019-10-30 14:49:14,609: INFO: [+]-------- Node [Block, Block, 14] Start
+2019-10-30 14:49:14,609: INFO: [+]---------- Node [Return, Return, 13] Start
+2019-10-30 14:49:14,609: INFO: [+]------------ Node [BinaryOperation, BinaryOperation, 12] Start
+2019-10-30 14:49:14,609: INFO: [+]-------------- Node [Identifier, a, 10] Start
+2019-10-30 14:49:14,610: INFO: [-]-------------- Node [Identifier, a, 10] End
+2019-10-30 14:49:14,610: INFO: [+]-------------- Node [Identifier, b, 11] Start
+2019-10-30 14:49:14,610: INFO: [-]-------------- Node [Identifier, b, 11] End
+2019-10-30 14:49:14,610: INFO: [-]------------ Node [BinaryOperation, BinaryOperation, 12] End
+2019-10-30 14:49:14,610: INFO: [-]---------- Node [Return, Return, 13] End
+2019-10-30 14:49:14,610: WARNING: [!] `ExpressionStatement` is not found here.
+2019-10-30 14:49:14,610: WARNING: [!] `IfStatement` is not found here.
+2019-10-30 14:49:14,610: INFO: [-]-------- Node [Block, Block, 14] End
+2019-10-30 14:49:14,610: INFO: [-]------ Node [FunctionDefinition, balanceOf, 15] End
+2019-10-30 14:49:14,610: WARNING: [!] `VariableDeclaration` is not found here.
+2019-10-30 14:49:14,610: WARNING: [!] `ModifierDefinition` is not found here.
+2019-10-30 14:49:14,610: WARNING: [!] `InheritanceSpecifier` is not found here.
+2019-10-30 14:49:14,611: WARNING: [!] `Block` is not found here.
+2019-10-30 14:49:14,611: INFO: [-]---- Node [ContractDefinition, ERC721Basic, 16] End
+2019-10-30 14:49:14,611: INFO: [-]-- Node [SourceUnit, ../cases/ir_test.sol, 17] End
+2019-10-30 14:49:14,611: INFO: Done.
